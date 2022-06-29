@@ -35,7 +35,7 @@ ENABLE_CORS=true
 JWT_KEY=9fd26a11-a1a6-4dfd-b754-78b56f9d7c30
 PAYLOAD_KEY=78e5ecc2-18f2-4cba-8268-a07f8a414af7
 JWT_EXPIRATION=1d
-NOSQL_CONNECTION_STRING=mongodb://admin:Passw0rd@127.0.0.1:30000/access-app
+NOSQL_CONNECTION_STRING=mongodb+srv://admin:Passw0rd@access-control.8jppi.mongodb.net/?retryWrites=true&w=majority
 ```
 
 ## Executando a API
@@ -55,8 +55,6 @@ $ npm run start:prod
 
 Após executar a api acesse http://localhost:4000/docs
 
-Infelimente não conseguir implementar o seed, então usando o swagger, você pode cadastrar o usuarios usando a API.
-no meotodo register coloque o email ficticio e a senha. Por essas questões tirei o crptografia da senha.
 
 ## Testes
 
